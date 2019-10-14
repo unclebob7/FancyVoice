@@ -1,5 +1,5 @@
 # FancyVoice
-FancyVoice(Chinese Name:趣声) is an Android application aiming to fully utilize the power of ASR by incorporating it into lots of controlling details. For example, for the convenience of the physical impaired, I developed "Handfree Browser" that use voice trigger for controlling events which traditonally requires direct physical operations; "Lisinterest": combining ASR with Acapella-CNN, I managed to increase the signal-noise-ratio and better the performance of lyrics recognition; "Skypeech": in-time captioning for Skype, offering accessible and satisfying Skype experience for the hearing-disabled. Following **Material Design** rules, you must find yourself immersed in exploring this application for great pleasure as well as for its colorful, creative design.
+FancyVoice(Chinese Name:趣声) is an Android application aiming to fully utilize the power of ASR by incorporating it into lots of controlling details and ultimately offers a community for the ASR-related applications. For example, for the convenience of the physical impaired, I developed "Handfree Browser" that use voice trigger for controlling events which traditonally requires direct physical operations; "Lisinterest": combining ASR with Acapella-CNN, I managed to increase the signal-noise-ratio and better the performance of lyrics recognition; "Skypeech": in-time captioning for Skype, offering accessible and satisfying Skype experience for the hearing-disabled. Following **Material Design** rules, you must find yourself immersed in exploring this application for great pleasure as well as for its colorful, creative design.
 
 <div align=center>
     <img width="250" height="180" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/logo.png"/>
@@ -7,9 +7,9 @@ FancyVoice(Chinese Name:趣声) is an Android application aiming to fully utiliz
 
 ## 1 Environment
 * Platform: Android API:25(minAPI:21)
-* Version: FancyVoice V1.0 (underdeveloped)
+* Version: FancyVoice V1.3.1 (underdeveloped)
 ### 1.1 Gradle details
-You could refer to the following configure to gradle
+You can refer to the following configuration of Gradle
 
 ```
 /*app/build.gradle*/
@@ -27,8 +27,8 @@ dependencies {
 ### 2.1 Handfree Browser
 A never-seen-before browser that specifically designed for the physical disabled to more conveniently use their browser. By incorporating **voice trigger** in every single controlling details which previously requires direct physical operations, this is sure to be convenient and never-seen-before!
 <div align=center>
-    <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/browser1.jpg"/>
-    <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/browser2.jpg"/>
+    <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/browser3.jpg"/>
+    <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/browser4.jpg"/>
 </div>
 
 ### 2.2 Lisinterest
@@ -51,13 +51,14 @@ Using ***voice trigger** to initialize the Iflytek speech-recognize engine befor
   <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/game.jpg"/>
 </div>
 
-### 2.5 Other Modules
-Other Modules include ***Me*** and ***About Softeware***
-*Me* is a page for containing other voice-recognition tools;
-*About Software* is a Copyright Statement and contains developers' information.
+### 2.5 Skypeech
+
+in-time captioning for Skype, offering accessible and satisfying Skype experience for the hearing-disabled.
+
 <div align=center>
-  <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/me.jpg"/>
-  <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/about_software.jpg"/>
+    <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/call1.jpg"/>
+    <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/call2.jpg"/>
+    <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/call3.jpg"/>
 </div>
 
 ### Contributors
