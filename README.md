@@ -1,12 +1,11 @@
 # FancyVoice
-FancyVoice(Chinese Name:趣声) is an Android Application using voice-recognize technology from iFLY(website:http://www.xfyun.cn/). It has four mainly kinds of modules, *Speech-Control Browser, Lyric-recognition Music Player, Speech-Control Notebook and Game Centre based on voice-recognize*. With BottomNavigationView on the bottom of layout companied by Viewpager, following **Material Design** rules, you must find yourself immerse in exploring this application for great pleasure as well as for its colorful, creative design.
+FancyVoice(Chinese Name:趣声) is an Android application aiming to fully utilize the power of ASR by incorporating it into lots of controlling details. For example, for the convenience of the physical impaired, I developed "Handfree Browser" that use voice trigger for controlling events which traditonally requires direct physical operations; "Lisinterest": combining ASR with Acapella-CNN, I managed to increase the signal-noise-ratio and better the performance of lyrics recognition; "Skypeech": in-time captioning for Skype, offering accessible and satisfying Skype experience for the hearing-disabled. Following **Material Design** rules, you must find yourself immersed in exploring this application for great pleasure as well as for its colorful, creative design.
 
 <div align=center>
     <img width="250" height="180" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/logo.png"/>
 </div>
 
 ## 1 Environment
-* Language: Chinese
 * Platform: Android API:25(minAPI:21)
 * Version: FancyVoice V1.0 (underdeveloped)
 ### 1.1 Gradle details
@@ -25,15 +24,15 @@ dependencies {
 
 
 ## 2 Function
-### 2.1 Speech-Control Browser
-You can use *Voice Conmmand* to control the browser if you are indolent. Or this is a kind of function for disabled individuals who cannot use their arms.
+### 2.1 Handfree Browser
+A never-seen-before browser that specifically designed for the physical disabled to more conveniently use their browser. By incorporating **voice trigger** in every single controlling details which previously requires direct physical operations, this is sure to be convenient and never-seen-before!
 <div align=center>
     <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/browser1.jpg"/>
     <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/browser2.jpg"/>
 </div>
 
-### 2.2 Lyric-recognition Music Player
-This is a tool that not only plays music but also recognises the song lyric and directly extract them from the audio.
+### 2.2 Lisinterest
+combining ASR with Acapella-CNN, I managed to increase the signal-noise-ratio and better the performance of lyrics recognition which offers instantaneous lyrics generation for the users. It's still an ongoing research trial.
 <div align=center>
     <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/music_player1.jpg"/>
     <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/music_player2.jpg"/>
@@ -46,8 +45,8 @@ Just click the button and then assert without any restraint. All your voice woul
     <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/notebook2.jpg"/>
 </div>
 
-### 2.4 Game Centre
-You need to speak “华为华为” to initialize the iFLY speech-recognize engine before giving any answer to microphone of cellphone. Following the instruction given by a description, you'll have limitless opportunities to use your acute brain, deduction and logic thinking to crack the right answer in each stage.
+### 2.4 Bob's secret
+Using ***voice trigger** to initialize the Iflytek speech-recognize engine before giving any answer to microphone of cellphone. Following the instruction given by a description, you'll have limitless opportunities to use your acute brain, deduction and logic thinking to crack the right answer in each stage.
 <div align=center>
   <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/game.jpg"/>
 </div>
@@ -61,3 +60,6 @@ Other Modules include ***Me*** and ***About Softeware***
   <img width="150" height="300" src="https://github-1252789527.cos.ap-shanghai.myqcloud.com/FancyVoice/about_software.jpg"/>
 </div>
 
+### Contributors
+- Zhiming Li (China University of Geosciences)
+- Rongfeng Yang (HKUST)
